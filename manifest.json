@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "LinkedIn AutoConnect",
+    "version": "1.0.0",
+    "description": "LinkedIn AutoConnect can send connection reuqest to multiple people with just one click.",
+    "icons": {
+        "128": "/icons/icons8-linkedin-144.png"
+    },
+
+    "author": {
+        "email": "aahangarg3471@gmail.com"
+    },
+    "permissions": [ "activeTab", "https://linkedin.com/*" ],
+    "browser_action": {
+        "default_title": "LinkedIn AutoConnect",   
+        "default_popup": "popup.html"  
+    }
+}
+
